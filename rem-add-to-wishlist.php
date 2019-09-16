@@ -74,7 +74,6 @@ class REM_WISHLIST {
 		$localize_vars = array(
             'ajaxurl' => admin_url('admin-ajax.php'),
             'empty_list_msg' => __('Your wishlist is empty.', "wishlist-real-estate-manager-extension"),
-            'already_exist' => __('Your wishlist is empty.', "wishlist-real-estate-manager-extension"),
             'already_exist_title' => __("Already Added", "wishlist-real-estate-manager-extension"),
             'already_exist_text' => __("Property already added.", "wishlist-real-estate-manager-extension"),
             'removed_property_title' => __("Removed", "wishlist-real-estate-manager-extension"),
