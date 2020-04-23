@@ -1,7 +1,7 @@
 <div class="ich-settings-main-wrap wishlist-box">
 	<div id="wishlist-wrap">
 		<div class="table-responsive property-list">
-			<table class="table table-striped table-hover rem-wishlist-table">
+			<table class="table rem-wishlist-table">
 			  <thead>
 				<tr>
 					<th><?php _e( 'Thumbnail', "wishlist-real-estate-manager-extension" ); ?></th>

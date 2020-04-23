@@ -47,10 +47,12 @@ class REM_WISHLIST {
 	}
 
 	function add_wishlist_button(  $property_id, $style = '' , $target = '' ) {
-	    
+
 	    echo ' <img class="rem-loading-img" src="'.REM_WISHLIST_URL.'/loading-icon.gif">';
-		echo '<a href="#" title="'.__( "Add to wishlist", "wishlist-real-estate-manager-extension").'" class="btn btn-default rem-wishlist-btn" data-id="'.$property_id.'" ><i class="far fa-heart"></i>';
-		echo '</a>';
+	    if ( ($style != '1' && $style != '2' && REM_VERSION >= '10.7.0')  ) {
+	    	
+			echo '<a href="#" title="'.__( "Add to wishlist", "wishlist-real-estate-manager-extension").'" class="btn btn-default rem-wishlist-btn" data-id="'.$property_id.'" ><i class="far fa-heart"></i></a>';
+	    }
 	}
 
 	function add_wishlist_button_in_single_property(  $property_id ) {
